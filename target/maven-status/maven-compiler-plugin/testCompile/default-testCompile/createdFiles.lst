@@ -1,0 +1,8 @@
+com\bookstore\models\Book.class
+com\bookstore\clients\AuthorsClient.class
+com\bookstore\models\Author$AuthorBuilder.class
+com\bookstore\models\Author.class
+com\bookstore\tests\BookTests.class
+com\bookstore\tests\AuthorTests.class
+com\bookstore\models\Book$BookBuilder.class
+com\bookstore\clients\BooksClient.class

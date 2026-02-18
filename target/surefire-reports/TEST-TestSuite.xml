@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="2.995" tests="9" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\basco\OneDrive\Desktop\API_Automation\api-automation-framework\target\test-classes;C:\Users\basco\OneDrive\Desktop\API_Automation\api-automation-framework\target\classes;C:\Users\basco\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\basco\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\basco\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\basco\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\basco\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\basco\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\basco\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\basco\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\basco\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\basco\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\basco\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\basco\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\basco\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\basco\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\basco\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\basco\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\basco\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\basco\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\basco\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\basco\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.16.1\jackson-databind-2.16.1.jar;C:\Users\basco\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.16.1\jackson-annotations-2.16.1.jar;C:\Users\basco\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.1\jackson-core-2.16.1.jar;C:\Users\basco\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\basco\.m2\repository\io\qameta\allure\allure-testng\2.21.0\allure-testng-2.21.0.jar;C:\Users\basco\.m2\repository\io\qameta\allure\allure-java-commons\2.21.0\allure-java-commons-2.21.0.jar;C:\Users\basco\.m2\repository\io\qameta\allure\allure-model\2.21.0\allure-model-2.21.0.jar;C:\Users\basco\.m2\repository\io\qameta\allure\allure-test-filter\2.21.0\allure-test-filter-2.21.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin"/>
+    <property name="sun.java.command" value="C:\Users\basco\AppData\Local\Temp\surefire17512690107241611166\surefirebooter-20260216221245685_3.jar C:\Users\basco\AppData\Local\Temp\surefire17512690107241611166 2026-02-16T22-12-45_334-jvmRun1 surefire-20260216221245685_1tmp surefire_0-20260216221245685_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\basco\OneDrive\Desktop\API_Automation\api-automation-framework\target\test-classes;C:\Users\basco\OneDrive\Desktop\API_Automation\api-automation-framework\target\classes;C:\Users\basco\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\basco\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\basco\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\basco\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\basco\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\basco\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\basco\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\basco\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\basco\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\basco\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\basco\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\basco\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\basco\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\basco\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\basco\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\basco\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\basco\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\basco\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\basco\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\basco\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.16.1\jackson-databind-2.16.1.jar;C:\Users\basco\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.16.1\jackson-annotations-2.16.1.jar;C:\Users\basco\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.1\jackson-core-2.16.1.jar;C:\Users\basco\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\basco\.m2\repository\io\qameta\allure\allure-testng\2.21.0\allure-testng-2.21.0.jar;C:\Users\basco\.m2\repository\io\qameta\allure\allure-java-commons\2.21.0\allure-java-commons-2.21.0.jar;C:\Users\basco\.m2\repository\io\qameta\allure\allure-model\2.21.0\allure-model-2.21.0.jar;C:\Users\basco\.m2\repository\io\qameta\allure\allure-test-filter\2.21.0\allure-test-filter-2.21.0.jar;"/>
+    <property name="allure.results.directory" value="C:\Users\basco\OneDrive\Desktop\API_Automation\api-automation-framework\target/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\basco"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.12"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\basco\OneDrive\Desktop\API_Automation\api-automation-framework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\basco\AppData\Local\Temp\surefire17512690107241611166\surefirebooter-20260216221245685_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.12+8-LTS-237"/>
+    <property name="user.name" value="basco"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\basco\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\basco\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.12"/>
+    <property name="user.dir" value="C:\Users\basco\OneDrive\Desktop\API_Automation\api-automation-framework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\basco\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\basco\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-11.0.12\bin;C:\apache-maven-3.8.6\bin;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Users\basco\AppData\Local\Android\Sdk\tools;C:\Users\basco\AppData\Local\Android\Sdk\platform-tools;C:\Users\basco\AppData\Local\Android\Sdk\build-tools\33.0.0;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\basco\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\nodejs\;C:\Users\basco\AppData\Roaming\npm;C:\Users\basco\AppData\Local\Microsoft\WindowsApps;C:\Users\basco\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\basco\AppData\Local\Microsoft\WindowsApps;C:\Users\basco\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\basco\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\basco\AppData\Local\GitHubDesktop\bin;C:\Users\basco\AppData\Roaming\npm;c:\Users\basco\.vscode\extensions\vscjava.vscode-java-debug-0.58.5\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.12+8-LTS-237"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="BASE_URL" value="https://fakerestapi.azurewebsites.net"/>
+  </properties>
+  <testcase name="testCreateAuthorWithInvalidData" classname="com.bookstore.tests.AuthorTests" time="0.798">
+    <system-out><![CDATA[✓ Invalid author data handled with status: 200
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="testCreateUpdateDeleteAuthor" classname="com.bookstore.tests.AuthorTests" time="0.245">
+    <system-out><![CDATA[✓ Author created with ID: 0
+⚠ Get by id returned 404, skipping update/delete
+]]></system-out>
+  </testcase>
+  <testcase name="testGetAllAuthors" classname="com.bookstore.tests.AuthorTests" time="0.12">
+    <system-out><![CDATA[✓ Get all authors returned 48540 bytes
+]]></system-out>
+  </testcase>
+  <testcase name="testGetAuthorById" classname="com.bookstore.tests.AuthorTests" time="0.213">
+    <system-out><![CDATA[✓ Get author by ID returned: First Name 1 Last Name 1
+]]></system-out>
+  </testcase>
+  <testcase name="testGetAuthorWithZeroId" classname="com.bookstore.tests.AuthorTests" time="0.095">
+    <system-out><![CDATA[✓ Get author with ID 0 returned status: 404
+]]></system-out>
+  </testcase>
+  <testcase name="testGetNonExistingAuthor" classname="com.bookstore.tests.AuthorTests" time="0.095">
+    <system-out><![CDATA[✓ Get non-existing author returned status: 404
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateUpdateDeleteBook" classname="com.bookstore.tests.BookTests" time="0.202">
+    <system-out><![CDATA[Get by id returned 404, skipping update/delete.
+]]></system-out>
+  </testcase>
+  <testcase name="testGetAllBooks" classname="com.bookstore.tests.BookTests" time="0.111"/>
+  <testcase name="testGetNonExistingBook" classname="com.bookstore.tests.BookTests" time="0.099"/>
+</testsuite>
